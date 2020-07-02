@@ -16,7 +16,7 @@ puts data
     file.each do |line|
       key, value = line.chomp.split("-")
       hash[key] = value
-      binding.pry
+    #  binding.pry
     end
   end
 
