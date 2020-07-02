@@ -19,7 +19,7 @@ def get_english_meaning(file_path, japanese_emoticon_to_translate  )
 #find the Japanese_emoticon_to_translate
 #return the key (the emotion name) of the emoticon
 
-file_as_hash = YAML.load_file(file_path)    #load the file automatically as hash, with keys and values in an array form
+file_as_hash = load_library(file_path)    #load the file automatically as hash, with keys and values in an array form
   #hash_of_meaning = {}
 file_as_hash.find do |key, value|
   value[1] = japanese_emoticon_to_translate
