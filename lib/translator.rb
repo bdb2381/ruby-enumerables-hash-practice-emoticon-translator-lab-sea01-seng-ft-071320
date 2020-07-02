@@ -27,7 +27,7 @@ file_as_hash.each do |key, value|
           if value[:japanese] != japanese_emoticon_to_translate
             puts "Sorry, that emotion was not found"
 
-          elsif           
+          elsif
              value[:japanese] == japanese_emoticon_to_translate
                  puts "I'm in the if!"
                  puts value[:japanese]
