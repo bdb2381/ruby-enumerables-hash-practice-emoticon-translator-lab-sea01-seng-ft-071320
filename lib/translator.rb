@@ -12,7 +12,7 @@ def load_library(file_path)
         frank_emo[name][:japanese] = arrays[1]
     end
   frank_emo
-  end
+  
 
 =begin
     data = []
