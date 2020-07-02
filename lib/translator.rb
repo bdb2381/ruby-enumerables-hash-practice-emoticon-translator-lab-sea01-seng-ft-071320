@@ -14,7 +14,7 @@ def load_library(file_path)
   hash_of_meaning    #return a hash with all .yml data in {'emoticon_name' => { :english => "value", :japanese => "value"} } format
 end
 
-def get_english_meaning(file_path, Japanese_emoticon_to_translate  )
+def get_english_meaning(file_path, japanese_emoticon_to_translate  )
 #load the file
 #find the Japanese_emoticon_to_translate
 #return the key (the emotion name) of the emoticon
