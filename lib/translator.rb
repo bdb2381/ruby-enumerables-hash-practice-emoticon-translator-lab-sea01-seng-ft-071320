@@ -1,7 +1,7 @@
 # require modules here
 require 'pry'
-require 'yaml'
-=begin
+
+
 def load_library(emoticons)
 
     data = []
@@ -24,16 +24,6 @@ puts data
     #binding.pry
   end
 
-=end
-
-  def load_library(yaml_file)
-    response = {"get_meaning" => {}, "get_emoticon" => {}}
-    library = YAML.load_file(yaml_file)
-    library.each do |trans, emos|
-      response["get_meaning"][emos[1]] = trans
-      response["get_emoticon"][emos[0]] = emos[1]
-    end
-  puts  response
 
 
 
