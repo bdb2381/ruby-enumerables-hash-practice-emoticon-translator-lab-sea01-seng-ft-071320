@@ -25,8 +25,12 @@ file_as_hash.each do |key, value|
     value.each do |language_key, emoticon_value|
       if emoticon_value != japanese_emoticon_to_translate
           puts "Emoticon Value is #{emoticon_value} and input var is #{japanese_emoticon_to_translate}"
-      end
 
+
+    elsif emoticon_value == japanese_emoticon_to_translate
+      key 
+
+    end  #end of if chains
       #puts "in the if statement"
 
       #binding.pry
