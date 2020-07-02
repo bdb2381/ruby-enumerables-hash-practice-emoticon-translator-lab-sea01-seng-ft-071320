@@ -33,10 +33,8 @@ file_as_hash.each do |key, value|
 
 
           end  #end of if
-          "Sorry, that emoticon was not found"
-
-
     end #value.each do loop
+    "Sorry, that emoticon was not found"
 end #file_as_hash do loop
 
 end  #end def
