@@ -2,7 +2,7 @@
 require 'pry'
 #require 'yaml'
 
-def load_library(emoticons)
+def load_library (emoticons)
 =begin
     data = []
     file_data = File.read(emoticons)  #load the data
@@ -11,7 +11,6 @@ def load_library(emoticons)
 binding.pry
 puts data
 =end
-
 
   hash = {"emotion_meaning" => {}, "the_emoticon" => {}}
   File.open(emoticons) do |file|
