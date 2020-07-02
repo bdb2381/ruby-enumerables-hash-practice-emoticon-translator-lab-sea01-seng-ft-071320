@@ -23,6 +23,7 @@ file_as_hash = load_library(file_path)    #load the file automatically as hash, 
   #hash_of_meaning = {}
 file_as_hash.find do |key, value|
   value[1] = japanese_emoticon_to_translate
+  binding.pry
 end
 #binding.pry
 end  #end def
