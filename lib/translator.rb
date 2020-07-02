@@ -2,7 +2,7 @@
 require 'pry'
 #require 'yaml'
 
-def load_library (emoticons)
+def load_library(emoticons)
 =begin
     data = []
     file_data = File.read(emoticons)  #load the data
