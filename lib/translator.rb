@@ -31,7 +31,7 @@ file_as_hash.each do |key, value|
               puts key
               return key
 
-          #elsif value[:japanese] != japanese_emoticon_to_translate
+          else return "Sorry, that emotion was not found" #value[:japanese] != japanese_emoticon_to_translate
           #  return "Sorry, that emotion was not found"
 
 
