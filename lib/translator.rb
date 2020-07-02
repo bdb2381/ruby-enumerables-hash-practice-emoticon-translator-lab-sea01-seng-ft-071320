@@ -1,6 +1,6 @@
 # require modules here
 require 'pry'
-
+require 'yaml'
 
 def load_library(emoticons_file_path)
 =begin
