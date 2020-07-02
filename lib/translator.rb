@@ -27,7 +27,7 @@ file_as_hash.each do |key, value|
           if value[:japanese] == japanese_emoticon_to_translate
                  return key
           end  #end of if
-    end #value.each do loop
+  #  end #value.each do loop
 end #file_as_hash do loop
 
   "Sorry, that emoticon was not found"
