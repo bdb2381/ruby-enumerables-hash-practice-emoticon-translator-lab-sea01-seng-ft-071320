@@ -16,8 +16,9 @@ end
 
 def get_english_meaning(file_path, japanese_emoticon_to_translate  )
 #load the file
-#find the Japanese_emoticon_to_translate
-#return the key (the emotion name) of the emoticon
+#find the Japanese_emoticon_to_translate by comparing it to each value
+#return the key (the emotion name) of the emoticon if found and exit
+#return error msg otherwise
 
 file_as_hash = load_library(file_path)    #load the file automatically as hash, with keys and values in an array form
 
@@ -32,8 +33,16 @@ end  #end def
 
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon (file_path, english_emoticon_to_translate)
   # code goes here
+  file_as_hash = load_library(file_path)    #load the file automatically as hash, with keys and values in an array form
 
+  file_as_hash.each do |key, nested_key_value|  #for each item in the hash....
+            if nested_key_value[:english] == english_emoticon_to_translate   #compare the value we are searching for with a potential partner in the hash
+                   return key   #return the key (the emotion name) if everything matches. Don't execute past this point if true
+            end  #end of if
+  end #file_as_hash do loop
+
+    "Sorry, that emoticon was not found"   #return this msg if no match is found
 
 end
