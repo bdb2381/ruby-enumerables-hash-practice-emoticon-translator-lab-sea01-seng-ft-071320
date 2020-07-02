@@ -30,9 +30,9 @@ file_as_hash.each do |key, value|
               puts japanese_emoticon_to_translate
               puts key
               return key
-          elsif
+          
 
-          end
+          end  #end of if
 
 
 
