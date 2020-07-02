@@ -26,8 +26,7 @@ file_as_hash.each do |key, value|
       puts emoticon_value[1]
       puts japanese_emoticon_to_translate
         #binding.pry
-        puts japanese_emoticon_to_translate
-        puts "in the if statement"
+      #puts "in the if statement"
       end
       #binding.pry
       puts
