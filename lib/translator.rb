@@ -1,6 +1,6 @@
 # require modules here
 require 'pry'
-require 'yml'
+
 
 def load_library(emoticons)
     file_data = File.read(emoticons)  #load the data
