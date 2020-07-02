@@ -17,7 +17,8 @@ puts data
       key, value = line.chomp.split("-")
       hash[key] = value
     #  binding.pry
-    puts key value
+    puts key
+    puts value
     end
     #binding.pry
   end
