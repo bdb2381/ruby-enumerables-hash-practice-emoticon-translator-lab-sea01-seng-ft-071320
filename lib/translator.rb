@@ -6,8 +6,8 @@ def load_library(emoticons)
     data = []
     file_data = File.read(emoticons)  #load the data
     data =  file_data.split(/-/)
-    hash = Hash[data.collect { |item| [item, " " ]}binding.pry]
-
+    hash = Hash[data.collect { |item| [item, " " ]}]
+binding.pry
 
 
 #   binding.pry
