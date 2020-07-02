@@ -28,7 +28,7 @@ file_as_hash.each do |key, value|
               puts "I'm in the if!"
               puts value[:japanese]
               puts japanese_emoticon_to_translate
-              puts key
+               key
           end
 
 
