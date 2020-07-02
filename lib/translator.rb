@@ -11,7 +11,7 @@ def load_library(emoticons)
 binding.pry
 puts data
 =end
-  hash = {}
+  hash = {"emotion_meaning" => {}, "the_emoticon" => {}}
   File.open(emoticons) do |file|
     file.map do |line|
       key, value = line.chomp.split("-")
