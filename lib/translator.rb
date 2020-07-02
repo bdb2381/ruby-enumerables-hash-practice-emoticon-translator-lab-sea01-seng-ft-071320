@@ -23,7 +23,7 @@ file_as_hash = load_library(file_path)    #load the file automatically as hash, 
   #hash_of_meaning = {}
 file_as_hash.each do |key, value|
     value.each do |language_key, emoticon_value|
-      puts emoticon_value[]
+      puts emoticon_value[0]
       puts japanese_emoticon_to_translate
         #binding.pry
       #puts "in the if statement"
