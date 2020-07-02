@@ -25,7 +25,7 @@ file_as_hash = load_library(file_path)    #load the file automatically as hash, 
 file_as_hash.each do |key, value|
     value.each do |language_key, emoticon_value|
           if value[:japanese] != japanese_emoticon_to_translate
-            return "Sorry, that emotion was not found"
+            puts "Sorry, that emotion was not found"
 
           elsif           
              value[:japanese] == japanese_emoticon_to_translate
