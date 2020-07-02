@@ -16,6 +16,7 @@ puts data
     fp.each do |line|
       key, value = line.chomp.split("-")
       has[key] = value
+      binding.pry
     end
   end
 
