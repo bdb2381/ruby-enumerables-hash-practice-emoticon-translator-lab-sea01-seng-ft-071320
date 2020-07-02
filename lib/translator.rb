@@ -2,7 +2,7 @@
 require 'pry'
 
 
-def load_library(emoticons)
+def load_library(emoticons_file_path)
 =begin
     data = []
     file_data = File.read(emoticons)  #load the data
@@ -24,7 +24,7 @@ puts data
   end
 =end
 hash = {"get_meaning" =>{}, "get_emoticon" =>{}}
-YAML.load_file(file_path).each do |meaning, language_array|
+YAML.load_file(emoticons_file_path).each do |meaning, language_array|
   hash["get_emoticon"][language_array[0]] = language_array[1]
   hash["get_meaning"][language_array[1]] = meaning
 end
