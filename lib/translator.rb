@@ -10,7 +10,6 @@ def load_library(file_path)
         hash_of_meaning[emotion_name_key] = {}            #create a nested hash for each emotion name, based on the emotion name_key
         hash_of_meaning[emotion_name_key][:english] = arrays_of_emoticons[0]    #for any data in index 0, put it here
         hash_of_meaning[emotion_name_key][:japanese] = arrays_of_emoticons[1]   #for any data in index 1, put it here
-binding.pry
     end
   hash_of_meaning    #return a hash with all .yml data in {'emoticon_name' => { :english => "value", :japanese => "value"} } format
 end
