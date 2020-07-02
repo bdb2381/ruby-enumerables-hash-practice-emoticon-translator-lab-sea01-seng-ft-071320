@@ -18,6 +18,7 @@ puts data
       hash[key] = value
     #  binding.pry
     end
+    binding.pry
   end
 
 
