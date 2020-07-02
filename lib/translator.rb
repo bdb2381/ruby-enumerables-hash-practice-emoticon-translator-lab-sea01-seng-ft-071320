@@ -24,12 +24,13 @@ file_as_hash = load_library(file_path)    #load the file automatically as hash, 
 #  binding.pry
 file_as_hash.each do |key, value|
     value.each do |language_key, emoticon_value|
-      if emoticon_value != japanese_emoticon_to_translate
-          puts "Emoticon Value is #{emoticon_value}, name is #{key} and input var is #{japanese_emoticon_to_translate}"
+      language_key.each do | emoticon|
+        #if emoticon_value != japanese_emoticon_to_translate
+          puts "Emoticon is #{emoticon}, name is #{key} and input var is #{japanese_emoticon_to_translate}"
           binding.pry
-
-    elsif emoticon_value == japanese_emoticon_to_translate
-      key
+      end     
+    #elsif emoticon_value == japanese_emoticon_to_translate
+    #  key
 
     end  #end of if chains
       #puts "in the if statement"
