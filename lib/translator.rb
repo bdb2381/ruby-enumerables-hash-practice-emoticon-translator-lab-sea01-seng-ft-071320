@@ -27,9 +27,9 @@ file_as_hash.each do |key, value|
         #binding.pry
         puts japanese_emoticon_to_translate
         puts "in the if statement"
-
       end
       #binding.pry
+      puts "out of the if statement"
     end
 end
 #binding.pry
