@@ -32,7 +32,7 @@ file_as_hash.each do |key, value|
     #elsif emoticon_value == japanese_emoticon_to_translate
     #  key
 
-    end  #end of if chains
+    #end  #end of if chains
       #puts "in the if statement"
 
       #binding.pry
