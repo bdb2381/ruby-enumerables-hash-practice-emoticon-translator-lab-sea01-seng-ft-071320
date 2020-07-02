@@ -34,9 +34,9 @@ file_as_hash.each do |key, value|
 
           end  #end of if
     end #value.each do loop
-    "Sorry, that emoticon was not found"
-end #file_as_hash do loop
 
+end #file_as_hash do loop
+  "Sorry, that emoticon was not found"
 end  #end def
 
 
