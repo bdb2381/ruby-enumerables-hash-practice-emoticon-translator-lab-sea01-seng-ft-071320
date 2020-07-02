@@ -5,10 +5,10 @@ require 'pry'
 def load_library(emoticons)
     data = []
     file_data = File.read(emoticons)  #load the data
-    #blah = {}
     data =  file_data.split(/-/)
     hash = Hash[data.collect { |item| [item, " " ] }]
-    #end
+    binding.pry
+    
 
 #   binding.pry
 #return a hash with {'emoticon_name' => { :english => "value", :japanese => "value"} } format
