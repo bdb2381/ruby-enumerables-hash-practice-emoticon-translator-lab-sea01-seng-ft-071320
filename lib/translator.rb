@@ -30,7 +30,7 @@ file_as_hash.each do |key, value|
               puts japanese_emoticon_to_translate
               puts key
               return key
-          
+
 
           end  #end of if
 
