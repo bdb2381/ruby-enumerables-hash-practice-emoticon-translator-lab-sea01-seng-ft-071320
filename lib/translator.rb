@@ -8,7 +8,7 @@ def load_library(emoticons)
     data =  file_data.split(/-/)
     hash = Hash[data.collect { |item| [item]}]
 binding.pry
-
+puts data
 
 #   binding.pry
 #return a hash with {'emoticon_name' => { :english => "value", :japanese => "value"} } format
