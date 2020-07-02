@@ -15,7 +15,7 @@ puts data
   File.open(emoticons) do |fp|
     fp.each do |line|
       key, value = line.chomp.split("-")
-      has[hkey] = value
+      hash[key] = value
       binding.pry
     end
   end
