@@ -23,7 +23,7 @@ file_as_hash = YAML.load_file(file_path)    #load the file automatically as hash
   #hash_of_meaning = {}
 file_as_hash.find do |key, value|
   value[1] = japanese_emoticon_to_translate
-
+end
 #binding.pry
 end
 
