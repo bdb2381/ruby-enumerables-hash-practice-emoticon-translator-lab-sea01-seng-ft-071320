@@ -1,7 +1,12 @@
 # require modules here
+require 'pry'
 
-def load_library
-  # code goes here
+
+def load_library(emoticons)
+    file_data = File.read(emoticons)  #load the data
+  
+
+#   binding.pry
 end
 
 def get_japanese_emoticon
