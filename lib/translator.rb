@@ -10,7 +10,7 @@ def load_library(file_path)
         hash_of_meaning[name] = {}   #||
         hash_of_meaning[name][:english] = arrays[0]
         hash_of_meaning[name][:japanese] = arrays[1]
-        
+
     end
   hash_of_meaning
 binding.pry
