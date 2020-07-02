@@ -9,7 +9,7 @@ def load_library(emoticons)
     end
 
 #   binding.pry
-#return a hash with {'emoticon_name' => { :english => "value", :japanese => "value"} } format 
+#return a hash with {'emoticon_name' => { :english => "value", :japanese => "value"} } format
 end
 
 def get_japanese_emoticon
