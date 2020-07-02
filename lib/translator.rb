@@ -4,7 +4,7 @@ require 'yaml'
 
 def load_library(file_path)
 
-  file_as_hash = YAML.load_file("lib/emoticons.yml")
+  file_as_hash = YAML.load_file(file_path)
     hash_of_meaning = {}
     file_as_hash.each do |name,arrays|
         hash_of_meaning[name] ||= {}
