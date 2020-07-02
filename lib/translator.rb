@@ -13,7 +13,7 @@ def load_library(file_path)
 
     end
   hash_of_meaning
-binding.pry
+#binding.pry
 #return a hash with {'emoticon_name' => { :english => "value", :japanese => "value"} } format
 end
 
