@@ -14,12 +14,21 @@ def load_library(file_path)
   hash_of_meaning    #return a hash with all .yml data in {'emoticon_name' => { :english => "value", :japanese => "value"} } format
 end
 
+def get_english_meaning(file_path, Japanese_emoticon_to_translate  )
+#load the file 
+#find the Japanese_emoticon_to_translate
+#return the key (the emotion name) of the emoticon  
+
+file_as_hash = YAML.load_file(file_path)    #load the file automatically as hash, with keys and values in an array form
+  #hash_of_meaning = {}  
+binding.pry
+end
+
+
+
 def get_japanese_emoticon
   # code goes here
 
   
 end
 
-def get_english_meaning
-  # code goes here
-end
