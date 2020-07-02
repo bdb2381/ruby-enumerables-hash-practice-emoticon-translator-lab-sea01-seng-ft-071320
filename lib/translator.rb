@@ -33,7 +33,7 @@ puts data
       response["get_meaning"][emos[1]] = trans
       response["get_emoticon"][emos[0]] = emos[1]
     end
-    response
+  puts  response
 
 
 
