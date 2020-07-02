@@ -4,9 +4,9 @@ require 'yml'
 
 def load_library(emoticons)
     file_data = File.read(emoticons)  #load the data
-    file_data.collect do |index|
-      puts index
-    end
+    #file_data.collect do |index|
+    #  puts index
+    #end
 
 #   binding.pry
 #return a hash with {'emoticon_name' => { :english => "value", :japanese => "value"} } format
