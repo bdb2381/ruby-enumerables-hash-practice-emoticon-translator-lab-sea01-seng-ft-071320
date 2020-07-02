@@ -25,7 +25,8 @@ file_as_hash.each do |key, value|
     value.each do |language_key, emoticon_value|
       if emoticon_value[1] == japanese_emoticon_to_translate
         #binding.pry
-        puts japanese_emoticon_to_translate
+        puts japanese_emoticon_to_translate 
+        puts "in the if statement"
 
       end
       #binding.pry
