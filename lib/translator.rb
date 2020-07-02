@@ -15,12 +15,12 @@ def load_library(file_path)
 end
 
 def get_english_meaning(file_path, Japanese_emoticon_to_translate  )
-#load the file 
+#load the file
 #find the Japanese_emoticon_to_translate
-#return the key (the emotion name) of the emoticon  
+#return the key (the emotion name) of the emoticon
 
 file_as_hash = YAML.load_file(file_path)    #load the file automatically as hash, with keys and values in an array form
-  #hash_of_meaning = {}  
+  #hash_of_meaning = {}
 binding.pry
 end
 
@@ -29,6 +29,5 @@ end
 def get_japanese_emoticon
   # code goes here
 
-  
-end
 
+end
