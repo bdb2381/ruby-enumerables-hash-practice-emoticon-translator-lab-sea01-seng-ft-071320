@@ -16,7 +16,7 @@ puts data
   hash = {"emotion_meaning" => {}, "the_emoticon" => {}}
   File.open(emoticons_file_path) do |file|
     file.map do |line|
-      #key, value = line.chomp.split("-")
+      key, value = line.chomp.split("-")
       hash["emotion_meaning"][][key] = value
     #  binding.pry
     puts hash
