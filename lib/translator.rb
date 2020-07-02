@@ -10,7 +10,7 @@ def load_library(file_path)
         hash_of_meaning[emotion_name_key] = {}            #create a nested hash for each emotion name
         hash_of_meaning[emotion_name_key][:english] = arrays[0]
         hash_of_meaning[emotion_name_key][:japanese] = arrays[1]
-
+binding.pry
     end
   hash_of_meaning
 #binding.pry
