@@ -2,7 +2,7 @@
 require 'pry'
 #require 'yaml'
 
-def load_library(emoticons_file_path)
+def load_library(emoticons)
 =begin
     data = []
     file_data = File.read(emoticons)  #load the data
@@ -14,7 +14,7 @@ puts data
 
 
   hash = {"emotion_meaning" => {}, "the_emoticon" => {}}
-  File.open(emoticons_file_path) do |file|
+  File.open(emoticons) do |file|
     file.map do |line|
       key, value = line.chomp.split("-")
       hash["emotion_meaning"][][key] = value
