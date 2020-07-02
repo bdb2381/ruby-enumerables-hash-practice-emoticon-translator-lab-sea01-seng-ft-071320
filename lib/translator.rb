@@ -10,9 +10,10 @@ def load_library(file_path)
         frank_emo[name] ||= {}
         frank_emo[name][:english] = arrays[0]
         frank_emo[name][:japanese] = arrays[1]
+        binding.pry
     end
   frank_emo
-  
+
 
 =begin
     data = []
