@@ -14,35 +14,10 @@ def load_library(file_path)
     end
   hash_of_meaning
 
-
-=begin
-    data = []
-    file_data = File.read(emoticons)  #load the data
-    data =  file_data.split(/-/)
-    hash = Hash[data.collect { |item| [item]}]
-binding.pry
-puts data
-
-
-  hash = {}
-  File.open(emoticons) do |file|
-    file.map do |line|
-      key, value = line.chomp.split("-")
-      hash[key] = value
-    #  binding.pry
-    puts hash
-    #$puts value
-    end
-    #binding.pry
-  end
-
-=end
-
-
-
-#   binding.pry
 #return a hash with {'emoticon_name' => { :english => "value", :japanese => "value"} } format
 end
+
+
 
 def get_japanese_emoticon
   # code goes here
