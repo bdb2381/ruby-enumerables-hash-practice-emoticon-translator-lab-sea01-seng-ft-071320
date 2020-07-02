@@ -32,7 +32,7 @@ file_as_hash.each do |key, value|
               return key
 
           else
-            return "Sorry, that emotion was not found" #value[:japanese] != japanese_emoticon_to_translate
+             "Sorry, that emotion was not found" #value[:japanese] != japanese_emoticon_to_translate
           #  return "Sorry, that emotion was not found"
 binding.pry
 
