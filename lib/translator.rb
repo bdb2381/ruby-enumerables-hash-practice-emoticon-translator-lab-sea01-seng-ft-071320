@@ -13,7 +13,7 @@ puts data
 =end
   hash = {}
   File.open(emoticons) do |file|
-    file.each do |line|
+    file.map do |line|
       key, value = line.chomp.split("-")
       hash[key] = value
     #  binding.pry
