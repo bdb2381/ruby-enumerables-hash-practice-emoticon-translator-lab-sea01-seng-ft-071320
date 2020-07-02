@@ -19,7 +19,7 @@ puts data
     #  binding.pry
     puts key value
     end
-    binding.pry
+    #binding.pry
   end
 
 
