@@ -12,7 +12,7 @@ def load_library(file_path)
         hash_of_meaning[name][:japanese] = arrays[1]
         binding.pry
     end
-  frank_emo
+  hash_of_meaning
 
 
 =begin
