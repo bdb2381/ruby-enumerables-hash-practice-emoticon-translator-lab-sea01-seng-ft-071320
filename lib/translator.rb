@@ -14,8 +14,8 @@ puts data
   hash = {}
   File.open(emoticons) do |file|
     file.each do |line|
-      key = line.chomp.split("-")
-    #  hash[key] = value
+      key, value = line.chomp.split("-")
+      hash[key] #= value
     #  binding.pry
     puts hash
     #$puts value
