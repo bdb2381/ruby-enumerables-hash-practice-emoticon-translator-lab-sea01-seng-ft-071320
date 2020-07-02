@@ -23,8 +23,9 @@ file_as_hash = load_library(file_path)    #load the file automatically as hash, 
   #hash_of_meaning = {}
 file_as_hash.each do |key, value|
     value.each do |language_key, emoticon_value|
-  emoticon_value[1] = japanese_emoticon_to_translate
+      emoticon_value[1] = japanese_emoticon_to_translate
   binding.pry
+    end
 end
 #binding.pry
 end  #end def
