@@ -24,10 +24,11 @@ file_as_hash = load_library(file_path)    #load the file automatically as hash, 
 file_as_hash.each do |key, value|
     value.each do |language_key, emoticon_value|
       if emoticon_value[1] == japanese_emoticon_to_translate
-        binding.pry
+        #binding.pry
+        puts japanese_emoticon_to_translate
 
       end
-      binding.pry
+      #binding.pry
     end
 end
 #binding.pry
