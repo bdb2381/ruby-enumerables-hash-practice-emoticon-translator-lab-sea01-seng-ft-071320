@@ -3,6 +3,7 @@ require 'pry'
 
 
 def load_library(emoticons)
+    file_data = {}
     file_data = File.read(emoticons)  #load the data
     file_data.each_with_object({}) do | (value, key), final_hash|
       binding.pry
