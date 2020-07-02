@@ -10,7 +10,7 @@ def load_library(emoticons_file_path)
     hash = Hash[data.collect { |item| [item]}]
 binding.pry
 puts data
-=end
+
 
   hash = {"emotion_meaning" => {}, "the_emoticon" => {}}
   File.open(emoticons) do |file|
@@ -23,6 +23,21 @@ puts data
     end
     #binding.pry
   end
+=end
+
+get_emoticon = {}
+ get_meaning = {}
+ YAML.load_file(emoticons_file_path).each do |k, v|
+   get_meaning[v[1]] = k
+   get_emoticon[v[0]] = v[1]
+ end
+ result = {}
+ result["get_meaning"] = get_meaning
+ result["get_emoticon"] = get_emoticon
+ result
+
+
+
 
 
 
