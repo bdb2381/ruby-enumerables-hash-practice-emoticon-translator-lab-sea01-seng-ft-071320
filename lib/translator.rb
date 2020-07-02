@@ -29,7 +29,7 @@ file_as_hash.each do |key, value|
               puts value[:japanese]
               puts japanese_emoticon_to_translate
               puts key
-              key
+              return key
           end
 
 
