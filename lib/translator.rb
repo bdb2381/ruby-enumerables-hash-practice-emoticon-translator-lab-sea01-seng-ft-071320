@@ -12,7 +12,7 @@ binding.pry
 puts data
 =end
 
-  hash = {"emotion_meaning" => {}, "the_emoticon" => {}}
+  hash = {}
   File.open(emoticons) do |file|
     file.map do |line|
       key, value = line.chomp.split("-")
