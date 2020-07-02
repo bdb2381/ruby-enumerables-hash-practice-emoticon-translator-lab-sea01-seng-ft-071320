@@ -34,7 +34,7 @@ get_emoticon = {}
  result = {}
  result["get_meaning"] = get_meaning
  result["get_emoticon"] = get_emoticon
- result
+ puts result
 
 
 
