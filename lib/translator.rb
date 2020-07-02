@@ -39,6 +39,7 @@ def get_japanese_emoticon (file_path, english_emoticon_to_translate)
 
   file_as_hash.each do |key, nested_key_value|  #for each item in the hash....
             if nested_key_value[:japanese] == english_emoticon_to_translate   #compare the value we are searching for with a potential partner in the hash
+              binding.pry
                    return nested_key_value[:japanese]   #return the key (the emotion name) if everything matches. Don't execute past this point if true
             end  #end of if
   end #file_as_hash do loop
