@@ -28,7 +28,7 @@ file_as_hash.each do |key, value|
         #if emoticon_value != japanese_emoticon_to_translate
           puts "Emoticon is #{emoticon}, name is #{key} and input var is #{japanese_emoticon_to_translate}"
           binding.pry
-      end     
+      end
     #elsif emoticon_value == japanese_emoticon_to_translate
     #  key
 
