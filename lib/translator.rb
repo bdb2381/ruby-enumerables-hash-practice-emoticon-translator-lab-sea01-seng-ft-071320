@@ -25,7 +25,7 @@ file_as_hash.find do |key, value|
   value[1] = japanese_emoticon_to_translate
 end
 #binding.pry
-end
+end  #end def
 
 
 
